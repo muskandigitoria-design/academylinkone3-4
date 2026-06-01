@@ -30,24 +30,7 @@ src="https://www.facebook.com/tr?id=2043339326256889&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
 <!-- ✅ 5 SECOND AUTO REDIRECT SCRIPT -->
-<script>
-  var redirectURL = "https://t.me/+SqiT3uB33Qk0MGNl";
-  var redirectDelay = 5; // seconds
-  window.addEventListener('DOMContentLoaded', function() {
-    var counter = redirectDelay;
-    var countEl = document.getElementById('redirect-count');
-    if (countEl) countEl.textContent = counter;
-    var interval = setInterval(function() {
-      counter--;
-      if (countEl) countEl.textContent = counter;
-      if (counter <= 0) {
-        clearInterval(interval);
-        if (typeof fbq !== 'undefined') fbq('track', 'Lead');
-        window.location.href = redirectURL;
-      }
-    }, 1000);
-  });
-</script>
+
 
 <style>
 :root {
